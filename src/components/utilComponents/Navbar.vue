@@ -1,9 +1,9 @@
 <template>
-  <ul>
-    <li v-for="item in items" v-bind:item="item">
-      {{ item.name }}
-    </li>
-  </ul>
+  <div>
+    <ul>
+      <li v-for="item in items" v-bind:key="item.name">{{ item.name }}</li>
+    </ul>
+  </div>
 </template>
 
 <script>

@@ -1,6 +1,7 @@
 <template>
   <div>
     <Navbar></Navbar>
+    <SampleChart></SampleChart>
     <p>{{ msg }}</p>
     <router-link to="/stats">Go to stats</router-link>
     <router-view/>
